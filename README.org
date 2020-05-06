@@ -1,0 +1,9 @@
+* Hue Light Control
+This repository includes several scripts to control Philips Hue Lights from your command line. They are written in Python and use the module [[https://github.com/studioimaginaire/phue][phue]].
+
+Initial examples taken from the module documentation. They might evolve overtime :)
+
+** Setup instructions
+Find the IP Address of your bridge using the mobile or desktop app. Edit lights_on.py and lights_off.py to add the IP and control your lights.
+
+Note: Before running every script for the first time you need to press the button on the Bridge to authenticate.
